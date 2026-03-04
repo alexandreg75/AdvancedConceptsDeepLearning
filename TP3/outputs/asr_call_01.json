@@ -1,0 +1,77 @@
+{
+  "audio_path": "TP3/data/call_01.wav",
+  "model_id": "openai/whisper-small",
+  "device": "cuda",
+  "audio_duration_s": 49.344,
+  "elapsed_s": 1.8445110321044922,
+  "rtf": 0.03738065483350544,
+  "segments": [
+    {
+      "segment_id": 0,
+      "start_s": 2.402,
+      "end_s": 7.55,
+      "text": "Thank you for calling customer support. My name is Alex and I will help you today."
+    },
+    {
+      "segment_id": 1,
+      "start_s": 8.226,
+      "end_s": 11.422,
+      "text": "I'm calling about an order that arrived to mage."
+    },
+    {
+      "segment_id": 2,
+      "start_s": 13.41,
+      "end_s": 17.342,
+      "text": "The package was delivered yesterday but the screen is cracked."
+    },
+    {
+      "segment_id": 3,
+      "start_s": 18.658,
+      "end_s": 23.39,
+      "text": "I would like to refute or replacement as soon as possible."
+    },
+    {
+      "segment_id": 4,
+      "start_s": 25.602,
+      "end_s": 27.774,
+      "text": "The order number is a..."
+    },
+    {
+      "segment_id": 5,
+      "start_s": 29.026,
+      "end_s": 31.326,
+      "text": "1975"
+    },
+    {
+      "segment_id": 6,
+      "start_s": 32.13,
+      "end_s": 35.262,
+      "text": "You can reach me at John.smiths."
+    },
+    {
+      "segment_id": 7,
+      "start_s": 35.618,
+      "end_s": 37.662,
+      "text": "at example.com"
+    },
+    {
+      "segment_id": 8,
+      "start_s": 38.882,
+      "end_s": 41.118,
+      "text": "Also my phone number is..."
+    },
+    {
+      "segment_id": 9,
+      "start_s": 41.57,
+      "end_s": 43.934,
+      "text": "555"
+    },
+    {
+      "segment_id": 10,
+      "start_s": 44.802,
+      "end_s": 46.526,
+      "text": "0199"
+    }
+  ],
+  "full_text": "Thank you for calling customer support. My name is Alex and I will help you today. I'm calling about an order that arrived to mage. The package was delivered yesterday but the screen is cracked. I would like to refute or replacement as soon as possible. The order number is a... 1975 You can reach me at John.smiths. at example.com Also my phone number is... 555 0199"
+}
