@@ -2,3 +2,6 @@
 # Ignore SAM checkpoints
 TP1/models/*.pth
 TP1/models/
+TP4/data/
+TP4/runs/
+TP4/runs/

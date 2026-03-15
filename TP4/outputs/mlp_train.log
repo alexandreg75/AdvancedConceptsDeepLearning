@@ -1,0 +1,17 @@
+device: cuda
+model: mlp
+epochs: 200
+config: {'seed': 42, 'device': 'cuda', 'epochs': 200, 'lr': 0.01, 'weight_decay': 0.0005, 'mlp': {'hidden_dim': 64, 'dropout': 0.5}}
+epoch=001 loss=1.9512 train_acc=0.3429 val_acc=0.3580 test_acc=0.3500 train_f1=0.2493 val_f1=0.1329 test_f1=0.1357 epoch_time_s=0.4771
+epoch=020 loss=0.0343 train_acc=1.0000 val_acc=0.5800 test_acc=0.5610 train_f1=1.0000 val_f1=0.5697 test_f1=0.5516 epoch_time_s=0.0015
+epoch=040 loss=0.0090 train_acc=1.0000 val_acc=0.5820 test_acc=0.5830 train_f1=1.0000 val_f1=0.5703 test_f1=0.5700 epoch_time_s=0.0015
+epoch=060 loss=0.0081 train_acc=1.0000 val_acc=0.5440 test_acc=0.5650 train_f1=1.0000 val_f1=0.5421 test_f1=0.5544 epoch_time_s=0.0015
+epoch=080 loss=0.0091 train_acc=1.0000 val_acc=0.5680 test_acc=0.5710 train_f1=1.0000 val_f1=0.5629 test_f1=0.5578 epoch_time_s=0.0015
+epoch=100 loss=0.0114 train_acc=1.0000 val_acc=0.5740 test_acc=0.5740 train_f1=1.0000 val_f1=0.5681 test_f1=0.5607 epoch_time_s=0.0015
+epoch=120 loss=0.0093 train_acc=1.0000 val_acc=0.5620 test_acc=0.5660 train_f1=1.0000 val_f1=0.5532 test_f1=0.5541 epoch_time_s=0.0015
+epoch=140 loss=0.0163 train_acc=1.0000 val_acc=0.5460 test_acc=0.5730 train_f1=1.0000 val_f1=0.5384 test_f1=0.5607 epoch_time_s=0.0015
+epoch=160 loss=0.0131 train_acc=1.0000 val_acc=0.5580 test_acc=0.5730 train_f1=1.0000 val_f1=0.5489 test_f1=0.5603 epoch_time_s=0.0015
+epoch=180 loss=0.0075 train_acc=1.0000 val_acc=0.5580 test_acc=0.5780 train_f1=1.0000 val_f1=0.5498 test_f1=0.5651 epoch_time_s=0.0015
+epoch=200 loss=0.0073 train_acc=1.0000 val_acc=0.5500 test_acc=0.5740 train_f1=1.0000 val_f1=0.5410 test_f1=0.5619 epoch_time_s=0.0015
+total_train_time_s=0.7804
+train_loop_time=1.8251
